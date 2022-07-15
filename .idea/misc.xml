@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/rounded_image_shape.xml" value="0.2965" />
+        <entry key="app/src/main/res/layout/activity_be_a_host.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_choose_group_or_solo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_community_home_page.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/activity_filler.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_group_created.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_group_details.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_register_home.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_solo_home_page.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_suggest_a_place.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/alert_dialog_be_a_guide.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/alert_dialog_choose_image.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/alert_dialog_create_group.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/app_bar_main2.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/content_main2.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/content_register_home.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/feed_rcview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/feed_suggested_guides_cardview.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/feed_suggested_places_cardview.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_comments.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_community_home.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_create_post.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_group.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_register_next_page.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_register_page.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_show_guides.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_show_suggested_places.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_suggest_a_place.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/group_feed.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/horizontal_feeds_layout.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/nav_header_main2.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/post_feed.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/spinner_layout.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/testlayout.xml" value="0.28125" />
+        <entry key="app/src/main/res/menu/activity_main2_drawer.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/menu/main2.xml" value="0.3494791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

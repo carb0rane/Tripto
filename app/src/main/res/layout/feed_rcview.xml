@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/feed_rcview"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="8dp"
+    card_view:contentPadding="10dp"
+    android:clickable="true"
+    android:layout_weight="1"
+    android:outlineAmbientShadowColor="#ffffff"
+    android:outlineSpotShadowColor="#ff3e4e"
+    android:elevation="50dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/tvHomeFeedUserFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radhika"
+            android:textStyle="bold|italic"
+            card_view:layout_constraintBottom_toTopOf="@+id/imageViewHomeFeedMainImage"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.325"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.138" />
+
+        <TextView
+            android:id="@+id/tvHomeFeedCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:ems="7"
+            android:text="17-04-2022"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.029" />
+
+        <ImageView
+android:layout_marginTop="25dp"
+            android:id="@+id/imageViewHomeFeedMainImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/tvHomeFeedCreatedAt"
+            card_view:layout_constraintStart_toEndOf="@+id/imageViewHomeFeedUserProfile"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.233"
+            card_view:srcCompat="@drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/imageViewHomeFeedUserProfile"
+            android:layout_width="81dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="10dp"
+            card_view:layout_constraintBottom_toTopOf="@+id/imageViewHomeFeedMainImage"
+            card_view:layout_constraintEnd_toStartOf="@+id/tvHomeFeedUserFullName"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0"
+            card_view:srcCompat="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/tvHomeFeedPostDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Description Goes Here"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.502"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@id/imageViewHomeFeedMainImage"
+            card_view:layout_constraintVertical_bias="0.085" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

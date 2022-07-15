@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <ImageView
+        android:id="@+id/regimage"
+        android:layout_width="281dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/registration_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvheadr"
+        android:layout_width="367dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sfmonoregular"
+        android:text="Safe Diversity "
+        android:textColor="#7375c1"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regimage" />
+
+    <TextView
+        android:textColor="#7375c1"
+        android:id="@+id/tvquoter"
+        android:layout_width="359dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sfmonoregular"
+        android:text="Diverse travel options that are safe and secure to allow travellers to enjoy themselves"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvheadr" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="294dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="294dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvquoter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

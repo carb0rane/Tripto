@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apocalypse.tripto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Testnav.NoActionBar">
+        <activity
+            android:name="com.apocalypse.tripto.ui.home.Filler"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.apocalypse.tripto.ui.group.ChooseGroupOrSolo"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.group.Group"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.solo.SoloHomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.profile.UserProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.community.BeAHost"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.community.Suggest_A_Place"
+            android:exported="false" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.registration.RegisterHome"
+            android:exported="true"
+            android:label="@string/title_activity_register_home"
+            android:theme="@style/Theme.Testnav.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.apocalypse.tripto.ui.community.communityHomePage"
+            android:exported="false"
+            android:label="CommunityHomepage" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.group.Group_Created"
+            android:exported="false"
+            android:label="@string/title_activity_group_created"
+            android:theme="@style/Theme.Testnav.NoActionBar" />
+        <activity
+            android:name="com.apocalypse.tripto.ui.group.GroupDetails"
+            android:exported="false"
+            android:label="@string/title_activity_group_details"
+            android:theme="@style/Theme.Testnav.NoActionBar" />
+        <activity
+            android:name="com.apocalypse.tripto.Main2Activity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Testnav.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

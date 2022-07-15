@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+<activity
+    android:id="@+id/mainactivity"
+    android:name="com.apocalypse.tripto.Main2Activity"
+    android:label="Main Activity"
+    tools:layout="@layout/activity_main2">
+
+</activity>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.apocalypse.tripto.ui.registration.FirstFragment"
+        android:label="Welcome Onboard"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.apocalypse.tripto.ui.registration.SecondFragment"
+        android:label="Register or Login "
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_fragment_register"
+            app:destination="@id/fragment_register" />
+        <action
+            android:id="@+id/action_SecondFragment_to_fragment_signin"
+            app:destination="@id/fragment_sign_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.apocalypse.tripto.ui.registration.RegisterPage"
+        android:label="Register "
+        tools:layout="@layout/fragment_register_page">
+
+        <action
+            android:id="@+id/action_RegisterFragment_to_NextPage"
+            app:destination="@id/fragment_register_next_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register_next_page"
+        android:name="com.apocalypse.tripto.ui.registration.register_next_page"
+        android:label="Register "
+        tools:layout="@layout/fragment_register_next_page">
+
+        <action
+            android:id="@+id/action_RegisterFragment_Final_to_Home"
+            app:destination="@id/fragment_register_next_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_sign_in"
+        android:name="com.apocalypse.tripto.ui.registration.SignIn"
+        android:label="Sign In "
+        tools:layout="@layout/fragment_sign_in">
+
+
+    </fragment>
+
+</navigation>

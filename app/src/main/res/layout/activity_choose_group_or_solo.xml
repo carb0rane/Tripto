@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choose_group_solo">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Testnav.AppBarOverlay"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            card_view:popupTheme="@style/Theme.Testnav.PopupOverlay" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/groups_have_fun"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="50dp"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ff3e4e"
+        card_view:cardBackgroundColor="#FFFFFF"
+        card_view:cardCornerRadius="80dp"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dshkfd"
+                android:layout_width="385dp"
+                android:layout_height="442dp"
+                android:src="@drawable/groupcamping"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.494"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/sfmonoregular"
+                android:text="Groups"
+                android:textColor="#9370db"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.595"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.988" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/solo_is_fun"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="50dp"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ff3e4e"
+        card_view:cardBackgroundColor="#FFFFFF"
+        card_view:cardCornerRadius="80dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@id/groups_have_fun">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/erhud"
+                android:layout_width="315dp"
+                android:layout_height="442dp"
+                android:src="@drawable/solo"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.394"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.633" />
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/sfmonoregular"
+                android:text="Solo"
+                android:textColor="#9370db"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.611"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.972" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.apocalypse.tripto.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_create_post"
+        android:name="com.apocalypse.tripto.ui.home.createPost"
+        android:label="Create Post"
+        tools:layout="@layout/fragment_create_post" />
+    <activity
+        android:id="@+id/nav_create_Group"
+        android:name="com.apocalypse.tripto.ui.group.ChooseGroupOrSolo"
+        android:label="Create Group"
+        tools:layout="@layout/fragment_group" />
+
+    <activity
+        android:id="@+id/nav_user_profile"
+        android:name="com.apocalypse.tripto.profile.UserProfile"
+        android:label="Profile"
+        tools:layout="@layout/activity_user_profile"/>
+
+    <activity
+        android:id="@+id/nava_community"
+        android:name="com.apocalypse.tripto.ui.community.communityHomePage"
+        android:label="Create Group"
+        tools:layout="@layout/activity_community_home_page"/>
+</navigation>
